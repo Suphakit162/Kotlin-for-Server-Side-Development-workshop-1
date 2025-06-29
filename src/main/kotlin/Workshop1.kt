@@ -46,10 +46,10 @@ fun celsiusToFahrenheit(celsius: Double): Double{
 // 4. สร้างฟังก์ชันแยกสำหรับการแปลงหน่วย Kilometers to Miles: kilometersToMiles
 // สูตร kilometers * 0.621371
 // 🚨
-fun kilometersToMiles(km: Double): Double{
-    val kg = km * 3.1415926535
-    return kg
+fun kilometersToMiles(km: Double): Double {
+    return km * 0.621371
 }
+
 
 
 // ฟังก์ชันสำหรับจัดการกระบวนการแปลง Celsius to Fahrenheit ทั้งหมด
